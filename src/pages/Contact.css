@@ -1,0 +1,19 @@
+/* Contact.css */
+.contact-container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f0f0f0;
+  }
+  
+  .contact-container h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .contact-container p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
