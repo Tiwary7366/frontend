@@ -10,7 +10,7 @@ export const Navbar=()=>{
             <header>
                 <div className="container">
                     <div className="logo-brand">
-                        <NavLink to="/">CLAIM MANAGEMENT SYSTEM </NavLink>
+                        <NavLink to="/">LUMIQ's CLAIM MANAGEMENT SYSTEM </NavLink>
                     </div>
                     <nav>
                         <ul>

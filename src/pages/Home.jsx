@@ -6,11 +6,11 @@ export const Home=()=>{
                     <div className="container grid grid-two-cols">
                         <div className="hero-content">
                             <p>
-                                We have made claim managment system application
+                                Lumiq's Claim Managment System(CMS)
                             </p>
-                            <h1>welcome to claim managment system </h1>
+                            <h1>Hope you get benefited</h1>
                             <p>
-                                !!!!!!!!!!!!!!!here we go !!!!!!!!!!!!!!!!!!
+                                
                             </p>
                             <div className="btn btn-group">
                                 <a href="/contact">
@@ -23,7 +23,7 @@ export const Home=()=>{
                         </div>
                         <div className="hero-image">
                             <img
-                             src="vite.svg" 
+                             src="Health_claim_home.jpg" 
                              alt="lets code"
                              width="400" 
                              height="300"/>
@@ -32,22 +32,22 @@ export const Home=()=>{
                 </section>
             </main>
             <section className="section-analytics">
-                <div className="container grid grid-four-cols">
+                <div className="container grid grid-four-cols"style={{ backgroundColor: 'black' }}>
                     <div className="div1">
                         <h2>50</h2>
-                        <p>registerd companies</p>
+                        <p>Total registeration</p>
                     </div>
                     <div className="div1">
-                        <h2>50</h2>
-                        <p>registerd companies</p>
+                        <h2>35</h2>
+                        <p>Comapany registerations</p>
                     </div>
                     <div className="div1">
-                        <h2>50</h2>
-                        <p>registerd companies</p>
+                        <h2>30</h2>
+                        <p>Companies Enrolled</p>
                     </div>
                     <div className="div1">
-                        <h2>50</h2>
-                        <p>registerd companies</p>
+                        <h2>30</h2>
+                        <p>Completed Registrations</p>
                     </div>
                 </div>
             </section>
@@ -55,7 +55,7 @@ export const Home=()=>{
                     <div className="container grid grid-two-cols">
                         <div className="hero-image">
                                 <img
-                                src="vite.svg" 
+                                src="Health_claim_home.jpg" 
                                 alt="lets code"
                                 width="400" 
                                 height="300"/>

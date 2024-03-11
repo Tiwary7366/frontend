@@ -87,5 +87,37 @@
 // };
 
 export const Contact=()=>{
-    return <h1>about hi there !! hi </h1>
+    return<>
+        <section className="section-contact">
+            <div className="contact-content container">
+                <h1 className="main-heading">Contact us</h1>
+            </div>
+            <div className="container grid grid-two-cols">
+                <div className="contact-img">
+                    <img src="Contact.jpg" alt="We are always ready to help."></img>
+                </div>
+                <section className="section-form">
+                    <form>
+                        <div>
+                            <label htmlFor="username">username</label>
+                            <input type="text" 
+                            name="username" 
+                            id="username" 
+                            autoComplete="off"
+                            required/>
+                        </div>
+
+                        <div>
+                            <label htmlFor="email">email</label>
+                            <input type="email" 
+                            name="email" 
+                            id="email" 
+                            autoComplete="off"
+                            required/>
+                        </div>
+                    </form>
+                </section>
+            </div>
+        </section>
+    </>
 }
