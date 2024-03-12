@@ -10,7 +10,6 @@ export const Login=()=>{
 
     const { storetokenInLS } = useAuth()
     const navigate = useNavigate();
-
 //handle input
 const handleInput=(e)=>{
     let name=e.target.name;
@@ -73,7 +72,7 @@ const handleSubmit= async (e)=>{
                             <br/>
                             <form onSubmit={handleSubmit}>
                                 <div>
-                                    <lable htmlFor="email">email</lable>
+                                    <label htmlFor="email">email</label>
                                     <input 
                                         type="text"
                                         name="email"
@@ -86,7 +85,7 @@ const handleSubmit= async (e)=>{
                                     />
                                 </div>
                                 <div>
-                                    <lable htmlFor="password">password</lable>
+                                    <label htmlFor="password">password</label>
                                     <input 
                                         type="password"
                                         name="password"

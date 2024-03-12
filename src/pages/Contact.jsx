@@ -104,6 +104,8 @@ export const Contact=()=>{
                             name="username" 
                             id="username" 
                             autoComplete="off"
+                            value={Contact.username}
+                            onChange={handleInput}
                             required/>
                         </div>
 
@@ -113,8 +115,12 @@ export const Contact=()=>{
                             name="email" 
                             id="email" 
                             autoComplete="off"
+                            value={Contact.email}
+                            onChange={handleInput}
                             required/>
                         </div>
+
+                        
                     </form>
                 </section>
             </div>
